@@ -16,13 +16,13 @@ const CarListing = () => {
             <Col lg="12">
               <div className=" d-flex align-items-center gap-3 mb-5">
                 <span className=" d-flex align-items-center gap-2">
-                  <i class="ri-sort-asc"></i> Sort By
+                  <i class="ri-sort-asc"></i> Отсортировать по
                 </span>
 
                 <select>
                   <option>Select</option>
-                  <option value="low">Low to High</option>
-                  <option value="high">High to Low</option>
+                  <option value="low">Низкая - Высокая</option>
+                  <option value="high">Высокая - Низкая</option>
                 </select>
               </div>
             </Col>

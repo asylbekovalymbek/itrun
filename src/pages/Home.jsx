@@ -26,7 +26,7 @@ const Home = () => {
             <Row className="form__row">
               <Col lg="4" md="4">
                 <div className="find__cars-left">
-                  <h2>Find your best car here</h2>
+                  <h2>Найди свою лучшую машину здесь</h2>
                 </div>
               </Col>
 
@@ -44,8 +44,8 @@ const Home = () => {
         <Container>
           <Row>
             <Col lg="12" className="mb-5 text-center">
-              <h6 className="section__subtitle">See our</h6>
-              <h2 className="section__title">Popular Services</h2>
+              <h6 className="section__subtitle">Посмотрите наши</h6>
+              <h2 className="section__title">Популярные сервисы</h2>
             </Col>
 
             <ServicesList />
@@ -57,8 +57,8 @@ const Home = () => {
         <Container>
           <Row>
             <Col lg="12" className="text-center mb-5">
-              <h6 className="section__subtitle">Come with</h6>
-              <h2 className="section__title">Hot Offers</h2>
+              <h6 className="section__subtitle">Приходите с </h6>
+              <h2 className="section__title">Коммерческими предложениями</h2>
             </Col>
 
             {carData.slice(0, 6).map((item) => (
@@ -89,8 +89,8 @@ const Home = () => {
         <Container>
           <Row>
             <Col lg="12" className="mb-5 text-center">
-              <h6 className="section__subtitle">Explore our blogs</h6>
-              <h2 className="section__title">Latest Blogs</h2>
+              <h6 className="section__subtitle">Взгляньте на наши блоги</h6>
+              <h2 className="section__title">Последние блоги</h2>
             </Col>
 
             <BlogList />

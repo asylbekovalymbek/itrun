@@ -29,13 +29,13 @@ const FindCarForm = () => {
         </FormGroup>
         <FormGroup className="select__group">
           <select>
-            <option value="ac">AC Car</option>
-            <option value="non-ac">Non AC Car</option>
+            <option value="ac">AC ON</option>
+            <option value="non-ac">AC OFF</option>
           </select>
         </FormGroup>
 
         <FormGroup className="form__group">
-          <button className="btn find__car-btn">Find Car</button>
+          <button className="btn find__car-btn">Найти Машину</button>
         </FormGroup>
       </div>
     </Form>

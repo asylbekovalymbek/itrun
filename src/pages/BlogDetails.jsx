@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { Container, Row, Col, Form, FormGroup, Input } from "reactstrap";
 
 import { useParams } from "react-router-dom";
-import blogData from "../assets/data/blogData.js";
+import blogData from "../api/blogData.json";
 import Helmet from "../components/Helmet/Helmet";
 import { Link } from "react-router-dom";
 
@@ -71,9 +71,9 @@ const BlogDetails = () => {
 
                 {/* =============== comment form ============ */}
                 <div className="leave__comment-form mt-5">
-                  <h4>Leave a Comment</h4>
+                  <h4>Оставьте Комментарий!</h4>
                   <p className="section__description">
-                    You must sign-in to make or comment a post
+                  Вы должны войти в систему, чтобы сделать или прокомментировать публикацию
                   </p>
 
                   <Form>
@@ -91,7 +91,7 @@ const BlogDetails = () => {
                     </FormGroup>
 
                     <button className="btn comment__btn mt-3">
-                      Post a Comment
+                      Опубликовать пост
                     </button>
                   </Form>
                 </div>
@@ -100,7 +100,7 @@ const BlogDetails = () => {
 
             <Col lg="4" md="4">
               <div className="recent__post mb-4">
-                <h5 className=" fw-bold">Recent Posts</h5>
+                <h5 className=" fw-bold">Недавние посты</h5>
               </div>
               {blogData.map((item) => (
                 <div className="recent__blog-post mb-4" key={item.id}>

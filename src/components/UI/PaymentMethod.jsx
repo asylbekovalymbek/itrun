@@ -9,19 +9,19 @@ const PaymentMethod = () => {
     <>
       <div className="payment">
         <label htmlFor="" className="d-flex align-items-center gap-2">
-          <input type="radio" /> Direct Bank Transfer
+          <input type="radio" /> Прямой банковский перевод
         </label>
       </div>
 
       <div className="payment mt-3">
         <label htmlFor="" className="d-flex align-items-center gap-2">
-          <input type="radio" /> Cheque Payment
+          <input type="radio" /> Бакай Банк
         </label>
       </div>
 
       <div className="payment mt-3 d-flex align-items-center justify-content-between">
         <label htmlFor="" className="d-flex align-items-center gap-2">
-          <input type="radio" /> Master Card
+          <input type="radio" /> Оптима Банк
         </label>
 
         <img src={masterCard} alt="" />
@@ -35,7 +35,7 @@ const PaymentMethod = () => {
         <img src={paypal} alt="" />
       </div>
       <div className="payment text-end mt-5">
-        <button>Reserve Now</button>
+        <button>Зарезервировать Сейчас</button>
       </div>
     </>
   );
