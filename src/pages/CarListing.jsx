@@ -8,7 +8,7 @@ import carData from "../assets/data/carData";
 const CarListing = () => {
   return (
     <Helmet title="Cars">
-      <CommonSection title="Car Listing" />
+      <CommonSection title="Каталог Велосипедов" />
 
       <section>
         <Container>
@@ -20,7 +20,7 @@ const CarListing = () => {
                 </span>
 
                 <select>
-                  <option>Select</option>
+                  <option>Нет Фильтра</option>
                   <option value="low">Низкая - Высокая</option>
                   <option value="high">Высокая - Низкая</option>
                 </select>

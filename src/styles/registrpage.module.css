@@ -1,0 +1,18 @@
+.wrapper {
+    padding: 50px 0;
+}
+
+.title {
+    font-size: 64px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.form {
+    width: 40%;
+    margin: auto;
+    box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.17);
+    border-radius: 30px;
+    padding: 80px 50px;
+}

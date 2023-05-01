@@ -2,7 +2,7 @@ import React from "react";
 import { Col } from "reactstrap";
 import "../../styles/blog-item.css";
 import { Link } from "react-router-dom";
-import blogData from "../../api/blogData.json";
+import blogData from "../../assets/data/blogData";
 
 const BlogList = () => {
   return (
@@ -32,7 +32,7 @@ const BlogItem = ({ item }) => {
           </p>
 
           <Link to={`/blogs/${title}`} className="read__more">
-            Read More
+            Узнать Больше
           </Link>
 
           <div className="blog__time pt-3 mt-3 d-flex align-items-center justify-content-between">

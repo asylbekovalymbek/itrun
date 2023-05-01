@@ -1,5 +1,4 @@
 import React from "react";
-
 import { Container, Row, Col, ListGroup, ListGroupItem } from "reactstrap";
 import { Link } from "react-router-dom";
 import "../../styles/footer.css";
@@ -17,7 +16,7 @@ const quickLinks = [
 
   {
     path: "/cars",
-    display: "Car Listing",
+    display: "Bikes Listing",
   },
   {
     path: "/blogs",
@@ -41,16 +40,15 @@ const Footer = () => {
             <div className="logo footer__logo">
               <h1>
                 <Link to="/home" className=" d-flex align-items-center gap-2">
-                  <i class="ri-car-line"></i>
+                <i class="ri-riding-line"></i>
                   <span>
-                    Арендовать Машину <br />
+                    VeloChangeKG <br />
                   </span>
                 </Link>
               </h1>
             </div>
             <p className="footer__logo-content">
-              Гарантия высокого качества обслуживания, 
-              исправных и застрахованных автомобилей.
+              lorem lorem lorem
             </p>
           </Col>
 
@@ -96,7 +94,7 @@ const Footer = () => {
             <div className="footer__bottom">
               <p className="section__description d-flex align-items-center justify-content-center gap-1 pt-4">
                 <i class="ri-copyright-line"></i>Copyright {year}, Developed by
-                RentCarServiceKG. Все права защищены.
+                VeloChangeKG. Все права защищены.
               </p>
             </div>
           </Col>

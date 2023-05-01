@@ -25,14 +25,12 @@ const Home = () => {
           <Container>
             <Row className="form__row">
               <Col lg="4" md="4">
-                <div className="find__cars-left">
-                  <h2>Найди свою лучшую машину здесь</h2>
-                </div>
+                {/* <div className="find__cars-left">
+                  <h2>Найди свой лучший байк здесь</h2>
+                </div> */}
               </Col>
 
-              <Col lg="8" md="8" sm="12">
-                <FindCarForm />
-              </Col>
+             
             </Row>
           </Container>
         </div>
@@ -44,8 +42,8 @@ const Home = () => {
         <Container>
           <Row>
             <Col lg="12" className="mb-5 text-center">
-              <h6 className="section__subtitle">Посмотрите наши</h6>
-              <h2 className="section__title">Популярные сервисы</h2>
+              
+              <h2 className="section__title">Почему мы?</h2>
             </Col>
 
             <ServicesList />
@@ -56,35 +54,18 @@ const Home = () => {
       <section>
         <Container>
           <Row>
-            <Col lg="12" className="text-center mb-5">
-              <h6 className="section__subtitle">Приходите с </h6>
-              <h2 className="section__title">Коммерческими предложениями</h2>
-            </Col>
-
+          <h2 className="section__title">Каталог</h2>
             {carData.slice(0, 6).map((item) => (
               <CarItem item={item} key={item.id} />
             ))}
           </Row>
         </Container>
       </section>
-      {/* =========== become a driver section ============ */}
-      <BecomeDriverSection />
+    
 
-      {/* =========== testimonial section =========== */}
-      <section>
-        <Container>
-          <Row>
-            <Col lg="12" className="mb-4 text-center">
-              <h6 className="section__subtitle">Our clients says</h6>
-              <h2 className="section__title">Testimonials</h2>
-            </Col>
+    
 
-            <Testimonial />
-          </Row>
-        </Container>
-      </section>
-
-      {/* =============== blog section =========== */}
+      {/* =============== блог =========== */}
       <section>
         <Container>
           <Row>

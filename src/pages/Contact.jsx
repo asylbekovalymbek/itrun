@@ -37,7 +37,7 @@ const Contact = () => {
 
               <Form>
                 <FormGroup className="contact__form">
-                  <Input placeholder="Your Name" type="text" />
+                  <Input placeholder="Имя" type="text" />
                 </FormGroup>
                 <FormGroup className="contact__form">
                   <Input placeholder="Email" type="email" />
@@ -60,7 +60,7 @@ const Contact = () => {
               <div className="contact__info">
                 <h6 className="fw-bold">Контактная Информация</h6>
                 <p className="section__description mb-0">
-                  123 ZindaBazar, Sylhet, Bangladesh
+                Бейшена Егимбаева, 145, с. Кок-Джар
                 </p>
                 <div className=" d-flex align-items-center gap-2">
                   <h6 className="fs-6 mb-0">Телефон:</h6>

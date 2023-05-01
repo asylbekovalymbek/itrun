@@ -31,20 +31,18 @@ const BookingForm = () => {
 
       <FormGroup className="booking__form d-inline-block me-4 mb-4">
         <select name="" id="">
-          <option value="1 person">1 Человек</option>
-          <option value="2 person">2 Человека</option>
-          <option value="3 person">3 Человека</option>
-          <option value="4 person">4 Человека</option>
-          <option value="5+ person">5+ Человек</option>
+          <option value="1 person">Городской</option>
+          <option value="2 person">MTB</option>
+          <option value="3 person">Шоссейник</option>
+          <option value="4 person">Фикс</option>
+          <option value="5+ person">Трэк</option>
         </select>
       </FormGroup>
       <FormGroup className="booking__form d-inline-block ms-1 mb-4">
         <select name="" id="">
-          <option value="1 luggage">1 багаж</option>
-          <option value="2 luggage">2 багажа</option>
-          <option value="3 luggage">3 багажа</option>
-          <option value="4 luggage">4 багажа</option>
-          <option value="5+ luggage">5+ багажей</option>
+          <option value="No Gear">без передач</option>
+          <option value="7 Gears">7 передач</option>
+          <option value="8 Gears">8 передач</option>
         </select>
       </FormGroup>
 

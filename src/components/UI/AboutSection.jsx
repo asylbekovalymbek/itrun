@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import "../../styles/about-section.css";
-import aboutImg from "../../assets/all-images/cars-img/bmw-offer.png";
+import aboutImg from "../../assets/all-images/cars-img/family-cycling.png";
 
 const AboutSection = ({ aboutClass }) => {
   return (
@@ -18,28 +18,28 @@ const AboutSection = ({ aboutClass }) => {
           <Col lg="6" md="6">
             <div className="about__section-content">
               <h4 className="section__subtitle">О нас</h4>
-              <h2 className="section__title">Добро пожаловать!</h2>
+              <h2 className="section__title">Добро пожаловать</h2>
               <p className="section__description">
-              Компания RentCarKG была основана в конце 2023 года и начала свою деятельность по аренде автомобилей без водителя в начале 2024 года. Согласно дипломному изданию, создавшему эту отрасль, она стала одним из первых игроков на рынке.
+                lorem
               </p>
 
               <div className="about__section-item d-flex align-items-center">
                 <p className="section__description d-flex align-items-center gap-2">
-                  <i class="ri-checkbox-circle-line"></i> Гарантия 
+                  <i class="ri-checkbox-circle-line"></i> lorem 
                 </p>
 
                 <p className="section__description d-flex align-items-center gap-2">
-                  <i class="ri-checkbox-circle-line"></i> Застрахованность
+                  <i class="ri-checkbox-circle-line"></i> lorem
                 </p>
               </div>
 
               <div className="about__section-item d-flex align-items-center">
                 <p className="section__description d-flex align-items-center gap-2">
-                  <i class="ri-checkbox-circle-line"></i> Чистый процесс аренды автомобилей
+                  <i class="ri-checkbox-circle-line"></i> lorem
                 </p>
 
                 <p className="section__description d-flex align-items-center gap-2">
-                  <i class="ri-checkbox-circle-line"></i> Филлиалы 
+                  <i class="ri-checkbox-circle-line"></i> lorem 
                 </p>
               </div>
             </div>
@@ -47,7 +47,7 @@ const AboutSection = ({ aboutClass }) => {
 
           <Col lg="6" md="6">
             <div className="about__img">
-              <img src={aboutImg} alt="" className="w-100" />
+              <img src={aboutImg} alt="sdfsfd" className="w-100" />
             </div>
           </Col>
         </Row>

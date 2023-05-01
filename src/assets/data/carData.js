@@ -1,138 +1,114 @@
 // import all images from assets/images directory
-import img01 from "../all-images/cars-img/nissan-offer.png";
-import img02 from "../all-images/cars-img/offer-toyota.png";
-import img03 from "../all-images/cars-img/bmw-offer.png";
-import img04 from "../all-images/cars-img/nissan-offer.png";
-import img05 from "../all-images/cars-img/offer-toyota.png";
-import img06 from "../all-images/cars-img/mercedes-offer.png";
-import img07 from "../all-images/cars-img/toyota-offer-2.png";
-import img08 from "../all-images/cars-img/mercedes-offer.png";
+import img01 from "../all-images/cars-img/fixedgear5.png";
+import img02 from "../all-images/cars-img/mtb2.png";
+import img03 from "../all-images/cars-img/kidsbike2.png";
+import img04 from "../all-images/cars-img/kidsbike3.png";
+import img05 from "../all-images/cars-img/fixedgear3.png";
+import img06 from "../all-images/cars-img/citybike3.png";
+import img07 from "../all-images/cars-img/kidsbike1.png";
+import img08 from "../all-images/cars-img/fixedgear4.png";
 
 const carData = [
   {
     id: 1,
-    brand: "Tesla",
+    brand: "Leader",
     rating: 112,
-    carName: "Tesla Malibu",
+    carName: "Leader 6061 Fixie",
     imgUrl: img01,
-    model: "Model 3",
+    model: "2020",
+    automatic: "No Gears",
     price: 50,
-    speed: "20kmpl",
-    gps: "GPS Navigation",
-    seatType: "Heated seats",
-    automatic: "Automatic",
     description:
       " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
   },
 
   {
     id: 2,
-    brand: "Toyota",
+    brand: "Azimut",
     rating: 102,
-    carName: "Toyota Aventador",
+    carName: "Azimut Spark",
     imgUrl: img02,
-    model: "Model-2022",
+    model: "2016",
+    automatic: "7 gear",
     price: 50,
-    speed: "20kmpl",
-    gps: "GPS Navigation",
-    seatType: "Heated seats",
-    automatic: "Automatic",
     description:
       " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
   },
 
   {
     id: 3,
-    brand: "BMW",
+    brand: "KidBike",
     rating: 132,
-    carName: "BMW X3",
+    carName: "JustCycle 01",
     imgUrl: img03,
-    model: "Model-2022",
+    model: "2014",
+    automatic: "1 gear",
     price: 65,
-    speed: "20kmpl",
-    gps: "GPS Navigation",
-    seatType: "Heated seats",
-    automatic: "Automatic",
     description:
       " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
   },
 
   {
     id: 4,
-    brand: "Nissan",
+    brand: "Matts",
     rating: 102,
-    carName: "Nissan Mercielago",
+    carName: "Merida Mats",
     imgUrl: img04,
-    model: "Model-2022",
+    model: "2015",
     price: 70,
-    speed: "20kmpl",
-    gps: "GPS Navigation",
-    seatType: "Heated seats",
-    automatic: "Automatic",
+    automatic: "6 Gears",
     description:
       " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
   },
 
   {
     id: 5,
-    brand: "Ferrari",
+    brand: "Tsunami",
     rating: 94,
-    carName: "Ferrari Camry",
+    carName: "Tsunami E-type ",
     imgUrl: img05,
-    model: "Model-2022",
+    model: "2022",
     price: 45,
-    speed: "20kmpl",
-    gps: "GPS Navigation",
-    seatType: "Heated seats",
-    automatic: "Automatic",
+    automatic: "6 Gears",
     description:
       " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
   },
 
   {
     id: 6,
-    brand: "Mercedes",
+    brand: "Giant",
     rating: 119,
-    carName: "Mercedes Benz XC90",
+    carName: "Giant",
     imgUrl: img06,
-    model: "Model-2022",
+    model: "2019",
+    automatic: "6 Gears",
     price: 85,
-    speed: "20kmpl",
-    gps: "GPS Navigation",
-    seatType: "Heated seats",
-    automatic: "Automatic",
     description:
       " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
   },
 
   {
     id: 7,
-    brand: "Audi",
+    brand: "Melas",
     rating: 82,
-    carName: "Audi Fiesta",
+    carName: "Melas Fiesta",
     imgUrl: img07,
-    model: "Model 3",
+    model: "2018",
+    automatic: "4 Gears",
     price: 50,
-    speed: "20kmpl",
-    gps: "GPS Navigation",
-    seatType: "Heated seats",
-    automatic: "Automatic",
     description:
       " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
   },
 
   {
     id: 8,
-    brand: "Colorado",
+    brand: "Engine 11",
     rating: 52,
-    carName: "Rolls Royce Colorado",
+    carName: "DigiCamo",
     imgUrl: img08,
-    model: "Model 3",
+    model: "2021",
+    automatic: "No Gears",
     price: 50,
-    speed: "20kmpl",
-    gps: "GPS Navigation",
-    seatType: "Heated seats",
-    automatic: "Automatic",
     description:
       " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
   },

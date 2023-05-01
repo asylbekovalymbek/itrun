@@ -5,7 +5,7 @@ import { Container, Row, Col } from "reactstrap";
 import Helmet from "../components/Helmet/Helmet";
 import { useParams } from "react-router-dom";
 import BookingForm from "../components/UI/BookingForm";
-import PaymentMethod from "../components/UI/PaymentMethod";
+
 
 const CarDetails = () => {
   const { slug } = useParams();
@@ -31,7 +31,7 @@ const CarDetails = () => {
 
                 <div className=" d-flex align-items-center gap-5 mb-4 mt-3">
                   <h6 className="rent__price fw-bold fs-4">
-                    ${singleCarItem.price}.00 / День
+                    {singleCarItem.price} cом 
                   </h6>
 
                   <span className=" d-flex align-items-center gap-2">
@@ -42,7 +42,7 @@ const CarDetails = () => {
                       <i class="ri-star-s-fill"></i>
                       <i class="ri-star-s-fill"></i>
                     </span>
-                    ({singleCarItem.rating} ratings)
+                    ({singleCarItem.rating} Рейтинг)
                   </span>
                 </div>
 
@@ -55,10 +55,7 @@ const CarDetails = () => {
                   style={{ columnGap: "4rem" }}
                 >
                   <span className=" d-flex align-items-center gap-1 section__description">
-                    <i
-                      class="ri-roadster-line"
-                      style={{ color: "#f9a826" }}
-                    ></i>{" "}
+                    <i class="ri-time-fill" style={{ color: "#f9a826" }}></i>{" "}
                     {singleCarItem.model}
                   </span>
 
@@ -70,31 +67,31 @@ const CarDetails = () => {
                     {singleCarItem.automatic}
                   </span>
 
-                  <span className=" d-flex align-items-center gap-1 section__description">
+                  {/* <span className=" d-flex align-items-center gap-1 section__description">
                     <i
                       class="ri-timer-flash-line"
                       style={{ color: "#f9a826" }}
                     ></i>{" "}
                     {singleCarItem.speed}
-                  </span>
+                  </span> */}
                 </div>
 
                 <div
                   className=" d-flex align-items-center mt-3"
                   style={{ columnGap: "2.8rem" }}
                 >
-                  <span className=" d-flex align-items-center gap-1 section__description">
+                  {/* <span className=" d-flex align-items-center gap-1 section__description">
                     <i class="ri-map-pin-line" style={{ color: "#f9a826" }}></i>{" "}
                     {singleCarItem.gps}
-                  </span>
+                  </span> */}
 
-                  <span className=" d-flex align-items-center gap-1 section__description">
+                  {/* <span className=" d-flex align-items-center gap-1 section__description">
                     <i
                       class="ri-wheelchair-line"
                       style={{ color: "#f9a826" }}
                     ></i>{" "}
                     {singleCarItem.seatType}
-                  </span>
+                  </span> */}
 
                   <span className=" d-flex align-items-center gap-1 section__description">
                     <i
@@ -109,15 +106,15 @@ const CarDetails = () => {
 
             <Col lg="7" className="mt-5">
               <div className="booking-info mt-5">
-                <h5 className="mb-4 fw-bold ">Информация о бронировании</h5>
+                <h5 className="mb-4 fw-bold ">Информация об обмене/продаже</h5>
                 <BookingForm />
               </div>
             </Col>
 
             <Col lg="5" className="mt-5">
               <div className="payment__info mt-5">
-                <h5 className="mb-4 fw-bold ">Платежная информация</h5>
-                <PaymentMethod />
+                <h5 className="mb-4 fw-bold "></h5>
+             
               </div>
             </Col>
           </Row>

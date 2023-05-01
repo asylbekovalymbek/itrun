@@ -1,7 +1,7 @@
-/* ======== google fonts ======== */
+/* ======== фонты ======== */
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap");
 
-/* ======= base style ====== */
+/* ======= база ====== */
 * {
   margin: 0;
   padding: 0;
@@ -9,14 +9,14 @@
   font-family: "Source Sans Pro", sans-serif;
 }
 
-/* ========= pre-define css ========= */
+/* ========= весь css ========= */
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  color: #000d6b;
+  color: #133a1b;
   font-weight: 600;
   margin-bottom: 0;
 }
@@ -81,7 +81,7 @@ section {
   color: #fff !important;
   background: #000c6bd0;
 }
-
+/* ============= адаптивка ===================== */
 @media only screen and (max-width: 768px) {
   section {
     padding: 30px 0px;

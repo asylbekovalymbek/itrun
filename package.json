@@ -23,7 +23,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "server": " cd src && cd api && json-server --watch blogData.json --port 3002"
+    "server": "cd api && json-server --watch blogdata.json --port 3001"
   },
   "eslintConfig": {
     "extends": [

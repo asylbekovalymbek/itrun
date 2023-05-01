@@ -1,5 +1,4 @@
 import React, { useRef } from "react";
-
 import { Container, Row, Col } from "reactstrap";
 import { Link, NavLink } from "react-router-dom";
 import "../../styles/header.css";
@@ -14,8 +13,8 @@ const navLinks = [
     display: "О нас",
   },
   {
-    path: "/cars",
-    display: "Машины",
+    path: "/bikes",
+    display: "Велосипеды",
   },
 
   {
@@ -54,7 +53,7 @@ const Header = () => {
                   <i class="ri-login-circle-line"></i> Логин
                 </Link>
 
-                <Link to="#" className=" d-flex align-items-center gap-1">
+                <Link to="/RegistrPage" className=" d-flex align-items-center gap-1">
                   <i class="ri-user-line"></i> Регистрация
                 </Link>
               </div>
@@ -71,9 +70,9 @@ const Header = () => {
               <div className="logo">
                 <h1>
                   <Link to="/home" className=" d-flex align-items-center gap-2">
-                    <i class="ri-car-line"></i>
+                    <i class="ri-riding-line"></i>
                     <span>
-                      Арендовать Машину <br /> Сервис
+                      VeloChangeKG<br /> 
                     </span>
                   </Link>
                 </h1>

@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { Container, Row, Col, Form, FormGroup, Input } from "reactstrap";
 
 import { useParams } from "react-router-dom";
-import blogData from "../api/blogData.json";
+import blogData from "../assets/data/blogData.js";
 import Helmet from "../components/Helmet/Helmet";
 import { Link } from "react-router-dom";
 
@@ -55,30 +55,28 @@ const BlogDetails = () => {
                 <div className="single__comment d-flex gap-3">
                   <img src={commentImg} alt="" />
                   <div className="comment__content">
-                    <h6 className=" fw-bold">David Visa</h6>
+                    <h6 className=" fw-bold">Салам Саламович</h6>
                     <p className="section__description mb-0">14 July, 2022</p>
                     <p className="section__description">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Eos nobis totam eius laborum molestias itaque minima
-                      distinctio, quae velit tempore!
+                      Спасибо за такой прекрасный блог! Очень информативно
                     </p>
 
                     <span className="replay d-flex align-items-center gap-1">
-                      <i class="ri-reply-line"></i> Replay
+                      <i class="ri-reply-line"></i> Ответить
                     </span>
                   </div>
                 </div>
 
                 {/* =============== comment form ============ */}
                 <div className="leave__comment-form mt-5">
-                  <h4>Оставьте Комментарий!</h4>
+                  <h4>Оставьте комментарий</h4>
                   <p className="section__description">
-                  Вы должны войти в систему, чтобы сделать или прокомментировать публикацию
+                    Вы должны войти чтобы оставить комментарий
                   </p>
 
                   <Form>
                     <FormGroup className=" d-flex gap-3">
-                      <Input type="text" placeholder="Full name" />
+                      <Input type="text" placeholder="Имя" />
                       <Input type="email" placeholder="Email" />
                     </FormGroup>
 
@@ -86,12 +84,12 @@ const BlogDetails = () => {
                       <textarea
                         rows="5"
                         className="w-100 py-2 px-3"
-                        placeholder="Comment..."
+                        placeholder="Комментарий"
                       ></textarea>
                     </FormGroup>
 
                     <button className="btn comment__btn mt-3">
-                      Опубликовать пост
+                      Отправить ответ
                     </button>
                   </Form>
                 </div>
@@ -100,7 +98,7 @@ const BlogDetails = () => {
 
             <Col lg="4" md="4">
               <div className="recent__post mb-4">
-                <h5 className=" fw-bold">Недавние посты</h5>
+                <h5 className=" fw-bold">Recent Posts</h5>
               </div>
               {blogData.map((item) => (
                 <div className="recent__blog-post mb-4" key={item.id}>

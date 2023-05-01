@@ -6,14 +6,14 @@ import AboutSection from "../components/UI/AboutSection";
 import { Container, Row, Col } from "reactstrap";
 import BecomeDriverSection from "../components/UI/BecomeDriverSection";
 
-import driveImg from "../assets/all-images/drive.jpg";
+import driveImg from "../assets/all-images/aboutusbike.png";
 import OurMembers from "../components/UI/OurMembers";
 import "../styles/about.css";
 
 const About = () => {
   return (
     <Helmet title="About">
-      <CommonSection title="About Us" />
+      <CommonSection title="О нас" />
       <AboutSection aboutClass="aboutPage" />
 
       <section className="about__page-section">
@@ -61,14 +61,13 @@ const About = () => {
         </Container>
       </section>
 
-      <BecomeDriverSection />
+      
 
       <section>
         <Container>
           <Row>
             <Col lg="12" className="mb-5 text-center">
-              <h6 className="section__subtitle">Эксперты</h6>
-              <h2 className="section__title">Наши участники</h2>
+           
             </Col>
             <OurMembers />
           </Row>
