@@ -21,7 +21,7 @@ const BlogList = () => {
 };
 
 const BlogItem = ({ item }) => {
-  const { imgUrl, title, author, date, description, time } = item;
+  const { imgUrl, title, author, date, description, time, id } = item;
 
   return (
     <Col lg="4" md="6" sm="6" className="mb-5">

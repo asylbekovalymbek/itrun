@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import { Container, Row, Col, Form, FormGroup, Input } from "reactstrap";
 
 import { useParams } from "react-router-dom";
@@ -12,14 +12,17 @@ import "../styles/blog-details.css";
 
 const BlogDetails = () => {
   const { slug } = useParams();
-  const [blogList, setBlogList] = useState([])
-  useEffect(()=>{
-    getOneData().then(res => {console.log(res)
-         setBlogList(res)})
+  const [blogList, setBlogList] = useState([]);
+  useEffect(() => {
+    getOneData(slug).then((res) => {
+      setBlogList(res);
+    });
     window.scrollTo(0, 0);
-  },[])
-  console.log(blogList)
-  const blog = blogList.find((blog) => blog.title === slug);
+  }, []);
+  const blog = useMemo(() => {
+    return blogList.find((blog) => blog.title === slug) ?? {};
+  }, [blogList]);
+
   return (
     <Helmet title={blog.title}>
       <section>
@@ -121,8 +124,6 @@ const BlogDetails = () => {
 };
 
 export default BlogDetails;
-
-
 
 // import React, { useEffect } from "react";
 // import { Container, Row, Col, Form, FormGroup, Input } from "reactstrap";

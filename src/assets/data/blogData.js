@@ -6,8 +6,12 @@ const getData = async () => {
     const responce = await axios.get('http://localhost:3003/blogData')
     return responce.data;   
 }
-const getOneData = async () => {
-    const responce = await axios.get('http://localhost:3003/blogData')
+const getOneData = async (title) => {
+    const responce = await axios.get('http://localhost:3003/blogData',{
+        params:{
+            title
+        }
+    })
     return responce.data;   
 }
 

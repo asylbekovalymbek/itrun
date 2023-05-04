@@ -1,44 +1,109 @@
- 
 {
-    "blogData" : [
-      {
-        "id": 1,
-        "title": "Велосипедный марафон?",
-        "author": "author",
-        "date": "30 Июня, 2023",
-        "time": "9pm",
-        "imgUrl": "../../assets/all-images/blog-img/blog-1.jpg",
-        "description":
-          "Езда на велосипеде — прекрасное времяпрепровождение, позволяющее по-новому взглянуть на окружающее, общительное и очень хорошее упражнение! Некоторые используют езду на велосипеде, чтобы проверить возможности своего тела в веломарафонах. У этих мероприятий много разных названий, так как же именно называется веломарафон?",
-        "quote":
-          "Марафоны на велосипедах часто небрежно называют «веломарафонами», но названия различных велогонок различаются в зависимости от пройденных дистанций. К ним относятся audax, randonnée, велоспорт на сверхдальние дистанции или век. Официального термина для веломарафона нет, как и официальной дистанции для него."
-      },
-    
-      {
-        "id": 2,
-        "title": "MTB для начинающих",
-        "author": "Author",
-        "date": "25 Июня, 2023",
-        "time": "9pm",
-        "imgUrl": "../../assets/all-images/blog-img/blog-2.jpg",
-        "description":
-          "Перед тем как выехать кататься на горном велосипеде на трассу или просто на грунтовую дорогу, мы рекомендуем тщательно спланировать поездку — чтобы во время прогулки не терять уверенности. Нужно проверить состояние велосипеда, изучить особенности трассы — и не только!",
-        "quote":
-          "1)Начинайте с местных трасс. 2)Возьмите с собой самое необходимое. 3)Возьмите с собой друзей. 4)Выбирайте свою траекторию. 5)Исследуйте что-то новое."
-          
-      },
-    
-      {
-        "id": 3,
-        "title": "Как выбрать шоссейный велосипед",
-        "author": "Author",
-        "date": "12 Июня, 2023",
-        "time": "9pm",
-        "imgUrl": "../../assets/all-images/blog-img/blog-3.jpg",
-        "description":"Подобрать шоссейный велосипед может быть непросто. Такой выбор предполагает, что вам нужно разобраться в огромном море технической информации и терминов. Знаете ли вы, нужен вам бюджетный карбоновый или, напротив, дорогой алюминиевый велосипед? ",
-        "quote":
-          "Собственно, такие велосипеды используются в самых разных целях.Так, на шоссейном байке с «рулём-бараном» вы можете и участвовать в гонках, и просто ездить по делам – такие велосипеды действительно универсальны. Стоит также отметить, что для некоторых дисциплин, таких, как гонки на время и триатлон, лучше всего подходят аэродинамические велосипеды.Если вы ездите по различному рельефу, то, вероятно, вам лучше всего подойдёт грэвел-байк. Именно шоссейные байки предназначены сугубо для асфальта, и они плохо подходят для езды по бездорожью из-за ширины покрышек и жёсткости рамы."
-      }
-    ]
-    
-  }
+  "blogData": [
+    {
+      "id": 1,
+      "title": "Велосипедный марафон?",
+      "author": "author",
+      "date": "30 Июня, 2023",
+      "time": "9pm",
+      "imgUrl": "../../assets/all-images/blog-img/blog-1.jpg",
+      "description": "Езда на велосипеде — прекрасное времяпрепровождение, позволяющее по-новому взглянуть на окружающее, общительное и очень хорошее упражнение! Некоторые используют езду на велосипеде, чтобы проверить возможности своего тела в веломарафонах. У этих мероприятий много разных названий, так как же именно называется веломарафон?",
+      "quote": "Марафоны на велосипедах часто небрежно называют «веломарафонами», но названия различных велогонок различаются в зависимости от пройденных дистанций. К ним относятся audax, randonnée, велоспорт на сверхдальние дистанции или век. Официального термина для веломарафона нет, как и официальной дистанции для него."
+    },
+
+    {
+      "id": 2,
+      "title": "MTB для начинающих",
+      "author": "Author",
+      "date": "25 Июня, 2023",
+      "time": "9pm",
+      "imgUrl": "../../assets/all-images/blog-img/blog-2.jpg",
+      "description": "Перед тем как выехать кататься на горном велосипеде на трассу или просто на грунтовую дорогу, мы рекомендуем тщательно спланировать поездку — чтобы во время прогулки не терять уверенности. Нужно проверить состояние велосипеда, изучить особенности трассы — и не только!",
+      "quote": "1)Начинайте с местных трасс. 2)Возьмите с собой самое необходимое. 3)Возьмите с собой друзей. 4)Выбирайте свою траекторию. 5)Исследуйте что-то новое."
+    },
+
+    {
+      "id": 3,
+      "title": "Как выбрать шоссейный велосипед",
+      "author": "Author",
+      "date": "12 Июня, 2023",
+      "time": "9pm",
+      "imgUrl": "../../assets/all-images/blog-img/blog-3.jpg",
+      "description": "Подобрать шоссейный велосипед может быть непросто. Такой выбор предполагает, что вам нужно разобраться в огромном море технической информации и терминов. Знаете ли вы, нужен вам бюджетный карбоновый или, напротив, дорогой алюминиевый велосипед? ",
+      "quote": "Собственно, такие велосипеды используются в самых разных целях.Так, на шоссейном байке с «рулём-бараном» вы можете и участвовать в гонках, и просто ездить по делам – такие велосипеды действительно универсальны. Стоит также отметить, что для некоторых дисциплин, таких, как гонки на время и триатлон, лучше всего подходят аэродинамические велосипеды.Если вы ездите по различному рельефу, то, вероятно, вам лучше всего подойдёт грэвел-байк. Именно шоссейные байки предназначены сугубо для асфальта, и они плохо подходят для езды по бездорожью из-за ширины покрышек и жёсткости рамы."
+    }
+  ],
+  "bikesData": [
+    {
+      "id": 1,
+      "brand": "Leader",
+      "rating": 112,
+      "carName": "Leader 6061 Fixie",
+      "imgUrl": "img01",
+      "model": "2020",
+      "automatic": "No Gears",
+      "price": 50,
+      "description": " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam."
+    },
+
+    {
+      "id": 2,
+      "brand": "Azimut",
+      "rating": 102,
+      "carName": "Azimut Spark",
+      "imgUrl": "img02",
+      "model": "2016",
+      "automatic": "7 gear",
+      "price": 50,
+      "description": " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam."
+    },
+
+    {
+      "id": 3,
+      "brand": "KidBike",
+      "rating": 132,
+      "carName": "JustCycle 01",
+      "imgUrl": "img03",
+      "model": "2014",
+      "automatic": "1 gear",
+      "price": 65,
+      "description": " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam."
+    },
+
+    {
+      "id": 4,
+      "brand": "Matts",
+      "rating": 102,
+      "carName": "Merida Mats",
+      "imgUrl": "img04",
+      "model": "2015",
+      "price": 70,
+      "automatic": "6 Gears",
+      "description": " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam."
+    },
+
+    {
+      "id": 5,
+      "brand": "Tsunami",
+      "rating": 94,
+      "carName": "Tsunami E-type ",
+      "imgUrl": "img05",
+      "model": "2022",
+      "price": 45,
+      "automatic": "6 Gears",
+      "description": " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam."
+    },
+
+    {
+      "id": 6,
+      "brand": "Giant",
+      "rating": 119,
+      "carName": "Giant",
+      "imgUrl": "img06",
+      "model": "2019",
+      "automatic": "6 Gears",
+      "price": 85,
+      "description": " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam."
+    }
+  ]
+}
