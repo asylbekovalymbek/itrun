@@ -3,17 +3,18 @@ import { Container, Row, Col } from "reactstrap";
 import Helmet from "../components/Helmet/Helmet";
 import CommonSection from "../components/UI/CommonSection";
 import CarItem from "../components/UI/CarItem";
-import carData from "../assets/data/carData";
+// import carData from "../assets/data/carData";
 import axios from "axios";
 
+// если поменять car listing --> bike listing будет car listing not defined
 const CarListing = () => {
-  const [carData, setCarData] = useState([]);
+  const [bikeData, setBikeData] = useState([]);
   useEffect(() => {
     axios.get("http://localhost:3003/bikesData").then((data) => {
-      setCarData(data.data);
+      setBikeData(data.data);
     });
   }, []);
-  console.log(carData)
+  console.log(bikeData);
   return (
     <Helmet title="Cars">
       <CommonSection title="Каталог Велосипедов" />
@@ -35,7 +36,7 @@ const CarListing = () => {
               </div>
             </Col>
 
-            {carData.map((item) => (
+            {bikeData.map((item) => (
               <CarItem item={item} key={item.id} />
             ))}
           </Row>

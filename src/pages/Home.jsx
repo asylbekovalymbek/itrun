@@ -4,7 +4,7 @@ import Helmet from "../components/Helmet/Helmet";
 import { Container, Row, Col } from "reactstrap";
 import AboutSection from "../components/UI/AboutSection";
 import ServicesList from "../components/UI/ServicesList";
-import carData from "../assets/data/carData";
+
 import CarItem from "../components/UI/CarItem";
 import BlogList from "../components/UI/BlogList";
 
@@ -45,7 +45,7 @@ const Home = () => {
         </Container>
       </section>
       {/* =========== car offer section ============= */}
-      <section>
+      {/* <section>
         <Container>
           <Row>
           <h2 className="section__title">Каталог</h2>
@@ -54,7 +54,7 @@ const Home = () => {
             ))}
           </Row>
         </Container>
-      </section>
+      </section> */}
     
 
     

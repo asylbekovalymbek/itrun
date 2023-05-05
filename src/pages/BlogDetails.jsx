@@ -6,7 +6,7 @@ import { getOneData } from "../assets/data/blogData";
 import Helmet from "../components/Helmet/Helmet";
 import { Link } from "react-router-dom";
 
-import commentImg from "../assets/all-images/ava-1.jpg";
+import commentImg from "../assets/all-images/ava-2.jpg";
 
 import "../styles/blog-details.css";
 
@@ -60,7 +60,7 @@ const BlogDetails = () => {
                 <div className="single__comment d-flex gap-3">
                   <img src={commentImg} alt="" />
                   <div className="comment__content">
-                    <h6 className=" fw-bold">Салам Саламович</h6>
+                    <h6 className=" fw-bold">Пользователь</h6>
                     <p className="section__description mb-0">14 July, 2022</p>
                     <p className="section__description">
                       Спасибо за такой прекрасный блог! Очень информативно
@@ -182,7 +182,7 @@ export default BlogDetails;
 //                 <div className="single__comment d-flex gap-3">
 //                   <img src={commentImg} alt="" />
 //                   <div className="comment__content">
-//                     <h6 className=" fw-bold">Салам Саламович</h6>
+//                     <h6 className=" fw-bold">Пользователь</h6>
 //                     <p className="section__description mb-0">14 July, 2022</p>
 //                     <p className="section__description">
 //                       Спасибо за такой прекрасный блог! Очень информативно
