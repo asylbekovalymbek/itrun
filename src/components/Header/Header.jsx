@@ -53,7 +53,7 @@ const Header = () => {
                   <i class="ri-login-circle-line"></i> Логин
                 </Link>
 
-                <Link to="/RegistrPage" className=" d-flex align-items-center gap-1">
+                <Link to="/registerPage" className=" d-flex align-items-center gap-1">
                   <i class="ri-user-line"></i> Регистрация
                 </Link>
               </div>
