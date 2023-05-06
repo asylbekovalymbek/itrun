@@ -6,12 +6,10 @@ const getBikes = async () => {
     const responce = await axios.get('http://localhost:3003/bikesData')
     return responce.data;   
 }
-const getOneBike = async (title) => {
+const getOneBike = async (carName) => {
     const responce = await axios.get('http://localhost:3003/bikesData',{
         params:{
-            title
-            
-
+            carName
         }
     })
     return responce.data;   

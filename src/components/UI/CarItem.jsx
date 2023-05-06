@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Col } from "reactstrap";
 import { Link } from "react-router-dom";
 import "../../styles/car-item.css";
+
 
 const CarItem = (props) => {
   const { imgUrl, model, carName, automatic, price } = props.item;

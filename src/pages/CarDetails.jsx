@@ -16,8 +16,9 @@ const CarDetails = () => {
     window.scrollTo(0, 0);
   }, []);
   const bike = useMemo(() => {
-    return bikesList.find((bike) => bike.title === slug) ?? {};
+    return bikesList.find((bike) => bike.carName === slug) ?? {};
   }, [bikesList]);
+  console.log(bike);
   return (
     <Helmet title={bike.carName}>
       <section>
