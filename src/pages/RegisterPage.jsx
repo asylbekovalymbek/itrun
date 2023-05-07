@@ -4,72 +4,93 @@ import Button from '@mui/material/Button';
 import styles from "../styles/registerpage.module.css";
 import { useState } from "react";
 import { authServices } from '../services/auth';
+import { useFormik } from "formik";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import * as yup from "yup";
+
+
 const RegisterPage = () => {
-    const [email, setEmail] = useState('');
-    const [password, setPassword] = useState('');
-    const [name, setName] = useState('');
+    const validationSchema = yup.object().shape({
+        email:yup.string().required('Обязательное поле').email('Введите корректный email'),
+        password: yup.string().required("Обязательное поле"),
+        username: yup.string().required("Обязательное поле"),
+    });
+
+    const formik = useFormik({
+      initialValues: {
+        email: "",
+        password: "",
+        username: "",
+      },
+      validationSchema, 
+      onSubmit: async (values) => {
+      try {
+          const { data } = await registration(values);
+          console.log(data._doc);
+          toast("Добро пожаловать!")
+      } catch (err) {                                                                                                                                               
+          toast("Email или имя уже существует");
+      }      }
+    })
 
     const { registration } = authServices();
 
-    const handleSubmit = async(e) => {
-        e.preventDefault();
-        const newUser = {
-            username: name,
-            email,
-            password,
-        };
-        try {
-            const { data } = await registration(newUser);
-            console.log(data._doc);
-        } catch (err) {
-            console.log(err.response.data);
-        }
-        
-    }
   return (
     <section className={styles.wrapper}>
       <h1 className={styles.title}>Регистрация</h1>
-      <form className={styles.form} onSubmit = {handleSubmit}>
+      <form className={styles.form} onSubmit = {formik.handleSubmit} >
         <TextField
+          error = {formik.errors.email}
+          helperText = {formik.errors.email ? formik.errors.email : ""}
+          onBlur = {formik.handleBlur}
           label="Ваш email"
           variant="filled"
           type="email"
+          name = "email"
           fullWidth
-          required
           style= {{ marginBottom: "20px" }}
-          value = {email}
-          onChange = {e => setEmail(e.target.value)}
+          value = {formik.values.email}
+          onChange = {formik.handleChange}
         />
         <TextField
           label="Пароль"
           variant="filled"
           type="password"
+          name = "password"
           fullWidth
-          required
+          value = {formik.values.password}
           style= {{ marginBottom: "20px" }}
-          value = {name}
-          onChange = {e => setName(e.target.value)}
+          error = {formik.errors.password}
+          helperText = {formik.errors.password ? formik.errors.password : ""}
+          onBlur = {formik.handleBlur}
+          onChange = {formik.handleChange}
         />
 
         <TextField
           label="Имя"
           variant="filled"
           type="text"
+          name = "username"
           fullWidth
-          required
+          error = {formik.errors.username}
+          helperText = {formik.errors.username ? formik.errors.username : ""}
+          onBlur = {formik.handleBlur}
+          value = {formik.values.username}
           style= {{ marginBottom: "40px" }}
-          value = {password}
-          onChange = {e => setPassword(e.target.value)}
+          onChange = {formik.handleChange}
+          
         />
         <Button
          fullWidth 
          type = "submit" 
          variant="contained"
-        style = {{backgroundColor: "#228c22", fontSize: "24px"}}
+          style = {{backgroundColor: "#228c22", fontSize: "24px"}}
          >
             Зарегистрироваться
         </Button>
       </form>
+      <ToastContainer />
     </section>
   );
 };
