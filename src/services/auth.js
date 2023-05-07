@@ -1,9 +1,9 @@
 import axios from "axios"
-import { rootApi } from "../api/index"
+import { rootApi } from "../api"
 
-const authServices = () => {
+export const authServices = () => {
     const registration = (userData) => {
-        return axios.post(`${rootApi}/auth.register`, userData);   
+        return axios.post(`${rootApi}/auth/register`, userData);   
     };
 
     return {
