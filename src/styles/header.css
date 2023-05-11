@@ -161,6 +161,9 @@
 .nav__active {
   color: #f9a826;
 }
+.span_btn {
+  color: white;
+}
 
 @media only screen and (max-width: 768px) {
   .header__top,
@@ -204,4 +207,5 @@
   .menu__active {
     display: block;
   }
+
 }
