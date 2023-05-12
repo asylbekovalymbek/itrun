@@ -6,7 +6,7 @@ import Helmet from "../components/Helmet/Helmet";
 import { useParams } from "react-router-dom";
 import BookingForm from "../components/UI/BookingForm";
 import { getOneBike } from "../assets/data/carData";
-import ShoppingCart from "./ShoppingCart";
+
 const CarDetails = () => {
   const { slug } = useParams();
   const [bikesList, setBikesList] = useState([]);
@@ -21,7 +21,6 @@ const CarDetails = () => {
   }, [bikesList]);
   console.log(bike);
 
-  const [cartsVisablity, setCartVisible] = useState(false)
   return (
     <Helmet title={bike.carName}>
       <section>
@@ -55,9 +54,9 @@ const CarDetails = () => {
                 <p className="section__description">
                   {bike.description}
                   </p>
-                  <button className={styles.add}  > 
+                  {/* <button className={styles.add}  > 
                             Добавить в корзину
-                        </button>
+                        </button> */}
                         {/* onClick={() => dispatch(addToCart({...product}))} */}
                 
 

@@ -3,8 +3,10 @@ import { Container, Row, Col } from "reactstrap";
 import Helmet from "../components/Helmet/Helmet";
 import CommonSection from "../components/UI/CommonSection";
 import CarItem from "../components/UI/CarItem";
+import Filter from "../components/Filter/Filter";
 // import carData from "../assets/data/carData";
 import axios from "axios";
+import { getBikes } from "../assets/data/carData";
 
 // если поменять car listing --> bike listing будет car listing not defined
 const CarListing = () => {
@@ -15,27 +17,26 @@ const CarListing = () => {
     });
   }, []);
   console.log(bikeData);
+
+// сортировка
+  useEffect(() => {
+    if(sorted == "price"){
+        console.log(bikeData.sort((a, b) => a.price - b.price))
+    }
+  }, [sorted])
+
+
+  const [sorted, setSorted] = useState("price")
   return (
-    <Helmet title="Cars">
+    <Helmet title="Bicycles">
       <CommonSection title="Каталог Велосипедов" />
 
+      {/* Фильтр */}
+      <Filter setSorted={setSorted} sorted = {sorted}/>
+      
       <section>
         <Container>
           <Row>
-            <Col lg="12">
-              <div className=" d-flex align-items-center gap-3 mb-5">
-                <span className=" d-flex align-items-center gap-2">
-                  <i class="ri-sort-asc"></i> Отсортировать по
-                </span>
-
-                <select>
-                  <option>Нет Фильтра</option>
-                  <option value="low">Низкая - Высокая</option>
-                  <option value="high">Высокая - Низкая</option>
-                </select>
-              </div>
-            </Col>
-
             {bikeData.map((item) => (
               <CarItem item={item} key={item.id} />
             ))}
