@@ -6,7 +6,7 @@ import Helmet from "../components/Helmet/Helmet";
 import { useParams } from "react-router-dom";
 import BookingForm from "../components/UI/BookingForm";
 import { getOneBike } from "../assets/data/carData";
-
+import ShoppingCart from "./ShoppingCart";
 const CarDetails = () => {
   const { slug } = useParams();
   const [bikesList, setBikesList] = useState([]);
@@ -20,6 +20,8 @@ const CarDetails = () => {
     return bikesList.find((bike) => bike.carName === slug) ?? {};
   }, [bikesList]);
   console.log(bike);
+
+  const [cartsVisablity, setCartVisible] = useState(false)
   return (
     <Helmet title={bike.carName}>
       <section>
