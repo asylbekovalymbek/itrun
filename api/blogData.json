@@ -42,7 +42,7 @@
       "imgUrl": "img01",
       "model": "2020",
       "automatic": "No Gears",
-      "price": 50,
+      "price": 29500,
       "description": " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam."
     },
 
@@ -54,7 +54,7 @@
       "imgUrl": "img02",
       "model": "2016",
       "automatic": "7 gear",
-      "price": 50,
+      "price": 11500,
       "description": " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam."
     },
 
@@ -66,7 +66,7 @@
       "imgUrl": "img03",
       "model": "2014",
       "automatic": "1 gear",
-      "price": 65,
+      "price": 4200,
       "description": " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam."
     },
 
@@ -77,7 +77,7 @@
       "carName": "Merida Mats",
       "imgUrl": "img04",
       "model": "2015",
-      "price": 70,
+      "price": 7000,
       "automatic": "6 Gears",
       "description": " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam."
     },
@@ -89,7 +89,7 @@
       "carName": "Tsunami E-type ",
       "imgUrl": "img05",
       "model": "2022",
-      "price": 45,
+      "price": 45000,
       "automatic": "6 Gears",
       "description": " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam."
     },
@@ -102,7 +102,7 @@
       "imgUrl": "img06",
       "model": "2019",
       "automatic": "6 Gears",
-      "price": 85,
+      "price": 16000,
       "description": " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam."
     }
   ]

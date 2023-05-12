@@ -1,5 +1,6 @@
 import React, { useEffect, useMemo, useState } from "react";
 
+import styles from '../styles/singleproductcard.module.css'
 import { Container, Row, Col } from "reactstrap";
 import Helmet from "../components/Helmet/Helmet";
 import { useParams } from "react-router-dom";
@@ -51,7 +52,12 @@ const CarDetails = () => {
 
                 <p className="section__description">
                   {bike.description}
-                </p>
+                  </p>
+                  <button className={styles.add}  > 
+                            Добавить в корзину
+                        </button>
+                        {/* onClick={() => dispatch(addToCart({...product}))} */}
+                
 
                 <div
                   className=" d-flex align-items-center mt-3"

@@ -5,4 +5,28 @@
 .wrapper h1 {
     font-size: 40px;
     text-align: center;
+    
 }
+/* h1 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+    color:#228c22;
+    padding-bottom: 60px;
+}
+h2{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+section {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    gap: 50px;
+    border-radius: 8px;
+    padding: 30px;
+    background-color: #f0f0f0;
+    padding-bottom: 60px;
+    
+} */
