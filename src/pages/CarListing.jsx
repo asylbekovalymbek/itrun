@@ -1,3 +1,5 @@
+// carlisting = bikelisting = каталог велосипедов
+
 import React, { useEffect, useState } from "react";
 import { Container, Row, Col } from "reactstrap";
 import Helmet from "../components/Helmet/Helmet";
@@ -9,8 +11,10 @@ import axios from "axios";
 import { getBikes } from "../assets/data/carData";
 
 // если поменять car listing --> bike listing будет car listing not defined
+//  ==========   get запрос =================
 const CarListing = () => {
   const [bikeData, setBikeData] = useState([]);
+  const [sorted, setSorted] = useState("price");
   useEffect(() => {
     axios.get("http://localhost:3003/bikesData").then((data) => {
       setBikeData(data.data);
@@ -18,22 +22,26 @@ const CarListing = () => {
   }, []);
   console.log(bikeData);
 
-// сортировка
+  //  ================= сортировка =========================
+
   useEffect(() => {
-    if(sorted == "price"){
-        console.log(bikeData.sort((a, b) => a.price - b.price))
+    if (sorted == "low") {
+      setBikeData(bikeData.sort((a, b) => b.price - a.price));
+    } else if (sorted == "high") {
+      setBikeData(bikeData.sort((a, b) => a.price - b.price));
     }
-  }, [sorted])
+  }, [sorted]);
 
+  // =======================     сортировка  конец ================================
 
-  const [sorted, setSorted] = useState("price")
   return (
     <Helmet title="Bicycles">
       <CommonSection title="Каталог Велосипедов" />
 
-      {/* Фильтр */}
-      <Filter setSorted={setSorted} sorted = {sorted}/>
-      
+      {/*================                 Фильтр      ========================================*/}
+      <Filter setSorted={setSorted} sorted={sorted} />
+
+      {/* ================================================================================= */}
       <section>
         <Container>
           <Row>
