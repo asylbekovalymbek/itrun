@@ -50,7 +50,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 8px 12px;
-  border: 1px solid #7c8a972f;
+  border: 1px solid rgba(255, 255, 255, 0.715);
   border-radius: 50px;
   background: #024d08e9;
 }

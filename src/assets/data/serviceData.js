@@ -1,23 +1,23 @@
 const serviceData = [
   {
     id: 1,
-    title: "Расположение",
+    title: "Мы делаем акцент на преобразованиях, а не на транзакциях",
     icon: "ri-map-pin-2-line",
-    desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
+    desc: "Мы стремимся сделать обмен велосипеда человеческим опытом.Мы не просто предоставляем нашим клиентам велосипеды. Мы подарим вам ряд положительных впечатлений."
   },
 
   {
     id: 2,
-    title: "Сообщество",
+    title: "Каждый найдет что-то для себя",
     icon: "ri-community-line",
-    desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
+    desc: "Являетесь ли вы опытным велосипедистом или только начинаете, в Velochange каждый найдет что-то для себя."
   },
 
   {
     id: 4,
     title: "Быстро и Легко",
     icon: "ri-timer-flash-line",
-    desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
+    desc: "Наш оптимизированный процес поможет вам найти желанный вид велосипеда без никакого труда. ",
   },
 
 

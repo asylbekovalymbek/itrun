@@ -6,26 +6,26 @@ import "../../styles/footer.css";
 const quickLinks = [
   {
     path: "/about",
-    display: "About",
+    display: "О нас",
   },
 
   {
-    path: "#",
-    display: "Privacy Policy",
+    path: "/registerpage",
+    display: "Зарегистрироваться",
   },
 
   {
     path: "/bikes",
-    display: "Bikes Listing",
+    display: "Каталог Велосипедов",
   },
   {
     path: "/blogs",
-    display: "Blog",
+    display: "Блог",
   },
 
   {
     path: "/contact",
-    display: "Contact",
+    display: "Контакты",
   },
 ];
 
@@ -48,7 +48,7 @@ const Footer = () => {
               </h1>
             </div>
             <p className="footer__logo-content">
-              lorem lorem lorem
+            Многое из того, кем мы являемся, возвращается туда, откуда мы родом. Velochange возникла из-за желания предоставить людям велосипеды, чтобы они могли исследовать свои районы и взаимодействовать со своими сообществами.
             </p>
           </Col>
 

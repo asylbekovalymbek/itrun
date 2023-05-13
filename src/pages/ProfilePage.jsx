@@ -14,11 +14,16 @@ const ProfilePage = () => {
         }
     }, [])
     return (
-        <section className={styles.user}>
+    <div className="container">
+        <h1 style= {{ textAlign: 'center', paddingBottom: '30px'}}>Профиль</h1>        
+        <section style = {{ backgroundColor: '#f0f0f0',borderRadius: '10px'}}className={styles.user}>
             <div className={styles.wrapper}>
-                <h1>{user?.username}</h1>
+                <h2 style= {{ backgroundColor: 'white', borderRadius: '10px',padding: '20px, 15px'}}>Имя: {user?.username}</h2>
+                <h2 style = {{ backgroundColor: 'white',borderRadius: '10px',padding: '20px, 15px', textAlign: ""}}>Почта: {user?.email}</h2>
             </div>
         </section>
+    </div>
+
     );
 };
 
