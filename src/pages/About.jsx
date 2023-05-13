@@ -30,26 +30,19 @@ const About = () => {
                 <h2 className="section__title">
                 Мы стремимся предоставлять решения для безопасной езды
                 </h2>
+                
 
                 <p className="section__description">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Eveniet veniam assumenda aperiam accusantium ex autem
-                  perferendis repellendus nostrum delectus. Nemo et dolore est
-                  tempore rem minima adipisci magni dolorum ipsam.
-                </p>
 
+                Мы стремимся предоставлять решения для безопасной езды на велосипедах, поэтому мы предлагаем высококачественное оборудование и экипировку, которые способствуют безопасности наших клиентов.   </p>
                 <p className="section__description">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Eveniet veniam assumenda aperiam accusantium ex autem
-                  perferendis repellendus nostrum delectus. Nemo et dolore est
-                  tempore rem minima adipisci magni dolorum ipsam.
+                Безопасность наших клиентов - наш приоритет, и мы делаем все возможное, чтобы предоставить решения, которые обеспечивают безопасность при езде на велосипеде. Приходите к нам, и мы поможем вам сделать вашу поездку на велосипеде максимально безопасной и комфортной.
                 </p>
 
                 <div className=" d-flex align-items-center gap-3 mt-4">
                   <span className="fs-4">
                     <i class="ri-phone-line"></i>
                   </span>
-
                   <div>
                     <h6 className="section__subtitle">Нужна помощь?</h6>
                     <h4>+996 702 324 666</h4>
@@ -66,9 +59,6 @@ const About = () => {
       <section>
         <Container>
           <Row>
-            <Col lg="12" className="mb-5 text-center">
-           
-            </Col>
             <OurMembers />
           </Row>
         </Container>

@@ -20,26 +20,28 @@ const AboutSection = ({ aboutClass }) => {
               <h4 className="section__subtitle">О нас</h4>
               <h2 className="section__title">Добро пожаловать</h2>
               <p className="section__description">
-                lorem
+              Многое из того, кем мы являемся, возвращается туда, откуда мы родом.
+
+              Velochange возникла из-за желания предоставить людям велосипеды, чтобы они могли исследовать свои районы и взаимодействовать со своими сообществами. Путешествие на велосипеде позволяет людям объехать больше, открывая для себя новые парки, рестораны, бары, галереи и другие места для встреч.
               </p>
 
               <div className="about__section-item d-flex align-items-center">
                 <p className="section__description d-flex align-items-center gap-2">
-                  <i class="ri-checkbox-circle-line"></i> lorem 
+                  <i class="ri-checkbox-circle-line"></i> Ведущая в отрасли служба поддержки клиентов 
                 </p>
 
                 <p className="section__description d-flex align-items-center gap-2">
-                  <i class="ri-checkbox-circle-line"></i> lorem
+                  <i class="ri-checkbox-circle-line"></i> Прозрачный процесс обмена
                 </p>
               </div>
 
               <div className="about__section-item d-flex align-items-center">
                 <p className="section__description d-flex align-items-center gap-2">
-                  <i class="ri-checkbox-circle-line"></i> lorem
+                  <i class="ri-checkbox-circle-line"></i> Самый легкий процесс обмена
                 </p>
 
                 <p className="section__description d-flex align-items-center gap-2">
-                  <i class="ri-checkbox-circle-line"></i> lorem 
+                  <i class="ri-checkbox-circle-line"></i> Вариативность велосипедов
                 </p>
               </div>
             </div>

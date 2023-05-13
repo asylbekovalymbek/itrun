@@ -27,8 +27,8 @@ const socialLinks = [
 
 const Contact = () => {
   return (
-    <Helmet title="Contact">
-      <CommonSection title="Contact" />
+    <Helmet title="Контакты">
+      <CommonSection title="Контакты" />
       <section>
         <Container>
           <Row>
@@ -69,7 +69,7 @@ const Contact = () => {
 
                 <div className=" d-flex align-items-center gap-2">
                   <h6 className="mb-0 fs-6">Email:</h6>
-                  <p className="section__description mb-0">abcde@gmail.com</p>
+                  <p className="section__description mb-0">velochangekg@gmail.com</p>
                 </div>
 
                 <h6 className="fw-bold mt-4">Cледите за нами в:</h6>
