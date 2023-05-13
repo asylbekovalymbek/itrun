@@ -10,8 +10,11 @@ import BlogDetails from "../pages/BlogDetails";
 import NotFound from "../pages/NotFound";
 import Contact from "../pages/Contact";
 import Register from "../pages/RegisterPage";
-
+import Login from "../pages/LoginPage";
+import Profile from "../pages/ProfilePage"
+import AuthGuard from "../AuthGuard/AuthGuard";
 const Routers = () => {
+  
   return (
     <Routes>
       <Route path="/" element={<Navigate to="/home" />} />
@@ -23,6 +26,12 @@ const Routers = () => {
       <Route path="/blogs/:slug" element={<BlogDetails />} />
       <Route path="/contact" element={<Contact />} />
       <Route path = "/registerpage" element={<Register />} />
+      <Route path = "/loginpage" element={<Login />} />
+      <Route path = "/profilepage" 
+      element={
+      <AuthGuard> 
+          <Profile /> {" "}
+      </AuthGuard>} />
       <Route path="*" element={<NotFound />} />
     </Routes>
   );

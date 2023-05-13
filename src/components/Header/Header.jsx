@@ -2,7 +2,9 @@ import React, { useRef } from "react";
 import { Container, Row, Col } from "reactstrap";
 import { Link, NavLink } from "react-router-dom";
 import "../../styles/header.css";
-
+import styles from "../../styles/header.css";
+import { useDispatch, useSelector } from 'react-redux';
+import { logout } from '../../redux/userSlice';
 const navLinks = [
   {
     path: "/home",
@@ -27,39 +29,58 @@ const navLinks = [
   },
 ];
 
+
 const Header = () => {
+  const dispatch = useDispatch()
   const menuRef = useRef(null);
 
   const toggleMenu = () => menuRef.current.classList.toggle("menu__active");
+
+  const username = useSelector(state => state.user.currentUser?.username)
 
   return (
     <header className="header">
       {/* ============ header top ============ */}
       <div className="header__top">
         <Container>
+        
           <Row>
             <Col lg="6" md="6" sm="6">
+            
               <div className="header__top__left">
-                <span>Нужна помощь?</span>
+              <p className={styles.username}> {username} </p>
+                <span>По вопросам обращаться: </span>
                 <span className="header__top__help">
-                  <i class="ri-phone-fill"></i> +996-702-324-666
+                  <i class="ri-phone-fill"> </i>+996-702-324-666 
                 </span>
               </div>
             </Col>
-
+          
             <Col lg="6" md="6" sm="6">
               <div className="header__top__right d-flex align-items-center justify-content-end gap-3">
-                <Link to="#" className=" d-flex align-items-center gap-1">
+
+              <Link to="/profilepage" className=" d-flex align-items-center gap-1">
+                  <i class="ri-user-line"></i> Профиль
+                </Link>
+                <Link to="/loginPage" className=" d-flex align-items-center gap-1">
                   <i class="ri-login-circle-line"></i> Логин
                 </Link>
 
-                <Link to="/registerPage" className=" d-flex align-items-center gap-1">
+                <Link to="/registerpage" className=" d-flex align-items-center gap-1">
                   <i class="ri-user-line"></i> Регистрация
                 </Link>
+                <button className="header__btn btn "  onClick={() => dispatch(logout())}>
+                <span className="span_btn btn">Выйти</span>
+              </button>
+              
+
               </div>
             </Col>
+            
           </Row>
+          
         </Container>
+        
       </div>
 
       {/* =============== header middle =========== */}
