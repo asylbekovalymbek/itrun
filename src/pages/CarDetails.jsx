@@ -1,3 +1,5 @@
+//  cardetalils = bikedetails = singleproductpage = один велосипед ввиде поста
+
 import React, { useEffect, useMemo, useState } from "react";
 
 import styles from '../styles/singleproductcard.module.css'

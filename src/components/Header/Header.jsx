@@ -48,10 +48,10 @@ const Header = () => {
             <Col lg="6" md="6" sm="6">
             
               <div className="header__top__left">
-              <p className={styles.username}> <pre></pre>{username} </p>
+              <p className={styles.username}> {username} </p>
                 <span>По вопросам обращаться: </span>
                 <span className="header__top__help">
-                  <i class="ri-phone-fill"></i> +996-702-324-666
+                  <i class="ri-phone-fill"> </i>+996-702-324-666 
                 </span>
               </div>
             </Col>
