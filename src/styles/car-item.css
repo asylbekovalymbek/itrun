@@ -4,6 +4,14 @@
   border-radius: 5px;
 }
 
+
+.car__img {
+  display: block;
+  width: 80%;
+  height: 80%;
+  margin: auto
+}
+
 .car__item-info span i {
   color: #f9a826;
   font-size: 1.1rem;

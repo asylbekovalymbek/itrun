@@ -13,6 +13,7 @@ import Register from "../pages/RegisterPage";
 import Login from "../pages/LoginPage";
 import Profile from "../pages/ProfilePage"
 import AuthGuard from "../AuthGuard/AuthGuard";
+import AddPost from "../pages/AddPostForm";
 const Routers = () => {
   
   return (
@@ -27,6 +28,9 @@ const Routers = () => {
       <Route path="/contact" element={<Contact />} />
       <Route path = "/registerpage" element={<Register />} />
       <Route path = "/loginpage" element={<Login />} />
+      <Route path = "/addPost" element={<AddPost />} />
+      
+ 
       <Route path = "/profilepage" 
       element={
       <AuthGuard> 

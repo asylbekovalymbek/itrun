@@ -6,7 +6,9 @@ import Helmet from "../components/Helmet/Helmet";
 import { useParams } from "react-router-dom";
 import BookingForm from "../components/UI/BookingForm";
 import { getOneBike } from "../assets/data/carData";
-
+// import DeleteForeverIcon from '@material-ui/icons/DeleteForever';
+import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
+import { borderRadius } from "@mui/system";
 const CarDetails = () => {
   const { slug } = useParams();
   const [bikesList, setBikesList] = useState([]);
@@ -122,9 +124,18 @@ const CarDetails = () => {
             </Col>
 
             <Col lg="5" className="mt-5">
-              <div className="payment__info mt-5">
-                <h5 className="mb-4 fw-bold "></h5>
-              </div>
+              <button className="deleteBtn" onClick={() => alert('wrokde')}style={{
+                fontSize: "32px",
+                background: "#fff",
+                color: "#d0312d",
+                padding: "2px",
+                borderRadius: "5px",
+                fontSize: "0.7rem",
+                width: "100%"
+                }}>
+                <DeleteForeverIcon />
+                  <p>Удалить Продажу</p>
+              </button>
             </Col>
           </Row>
         </Container>
