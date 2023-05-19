@@ -18,7 +18,10 @@ const navLinks = [
     path: "/bikes",
     display: "Велосипеды",
   },
-
+  {
+    path: "/add",
+    display: "Добавить предложение",
+  },
   {
     path: "/blogs",
     display: "Блог",
@@ -69,6 +72,7 @@ const Header = () => {
                 <Link to="/registerpage" className=" d-flex align-items-center gap-1">
                   <i class="ri-user-line"></i> Регистрация
                 </Link>
+              
                 <button className="header__btn btn "  onClick={() => dispatch(logout())}>
                 <span className="span_btn btn">Выйти</span>
               </button>
