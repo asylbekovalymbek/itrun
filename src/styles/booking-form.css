@@ -29,6 +29,15 @@
 .booking__form select:focus {
   outline: none;
 }
+.contact__btn {
+  padding: 7px 15px;
+  background: #228c22;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
 
 @media only screen and (max-width: 768px) {
   .booking__form {

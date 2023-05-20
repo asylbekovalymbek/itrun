@@ -65,8 +65,13 @@ const BookingForm = () => {
           placeholder="Write"
         ></textarea>
       </FormGroup>
+      <button className=" contact__btn" >
+                    Отправить сообщение
+      </button>
     </Form>
   );
+  
 };
+
 
 export default BookingForm;

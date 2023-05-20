@@ -5,7 +5,7 @@ import "../../styles/car-item.css";
 
 
 const CarItem = (props) => {
-  const { imgUrl, model, carName, automatic, price } = props.item;
+  const {id, imgUrl, model, carName, automatic, price } = props.item;
 
   return (
     <Col lg="4" md="4" sm="6" className="mb-5">

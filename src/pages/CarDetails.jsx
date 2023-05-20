@@ -11,6 +11,8 @@ import { getOneBike } from "../assets/data/carData";
 // import DeleteForeverIcon from '@material-ui/icons/DeleteForever';
 import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
 import { borderRadius } from "@mui/system";
+import { Navigate } from "react-router-dom";
+import axios from "axios";
 const CarDetails = () => {
   const { slug } = useParams();
   const [bikesList, setBikesList] = useState([]);
@@ -121,12 +123,19 @@ const CarDetails = () => {
             <Col lg="7" className="mt-5">
               <div className="booking-info mt-5">
                 <h5 className="mb-4 fw-bold ">Информация об обмене/продаже</h5>
+                
                 <BookingForm />
+        
               </div>
+             
             </Col>
 
             <Col lg="5" className="mt-5">
-              <button className="deleteBtn" onClick={() => alert('wrokde')}style={{
+          
+            </Col>
+          </Row>
+          <button className="deleteBtn" onClick={e => handleSubmit(bike.id)}style={{
+                marginTop:"20px",
                 fontSize: "32px",
                 background: "#fff",
                 color: "#d0312d",
@@ -138,12 +147,22 @@ const CarDetails = () => {
                 <DeleteForeverIcon />
                   <p>Удалить Продажу</p>
               </button>
-            </Col>
-          </Row>
         </Container>
+        
       </section>
+      
     </Helmet>
   );
+  function handleSubmit(carName) {
+    const conf = window.confirm("Вы хотите удалить продажу?")
+    if(conf) {
+      axios.delete('http://localhost:3003/bikesData/'+carName)
+      .then(res => {
+        alert('Продажа была удалена');
+        Navigate('/bikes')
+      }).catch(err => console.log(err))
+    }
+  }
 };
 
 export default CarDetails;

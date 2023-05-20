@@ -10,7 +10,6 @@
       "description": "Езда на велосипеде — прекрасное времяпрепровождение, позволяющее по-новому взглянуть на окружающее, общительное и очень хорошее упражнение! Некоторые используют езду на велосипеде, чтобы проверить возможности своего тела в веломарафонах. У этих мероприятий много разных названий, так как же именно называется веломарафон?",
       "quote": "Марафоны на велосипедах часто небрежно называют «веломарафонами», но названия различных велогонок различаются в зависимости от пройденных дистанций. К ним относятся audax, randonnée, велоспорт на сверхдальние дистанции или век. Официального термина для веломарафона нет, как и официальной дистанции для него."
     },
-
     {
       "id": 2,
       "title": "MTB для начинающих",
@@ -21,7 +20,6 @@
       "description": "Перед тем как выехать кататься на горном велосипеде на трассу или просто на грунтовую дорогу, мы рекомендуем тщательно спланировать поездку — чтобы во время прогулки не терять уверенности. Нужно проверить состояние велосипеда, изучить особенности трассы — и не только!",
       "quote": "1)Начинайте с местных трасс. 2)Возьмите с собой самое необходимое. 3)Возьмите с собой друзей. 4)Выбирайте свою траекторию. 5)Исследуйте что-то новое."
     },
-
     {
       "id": 3,
       "title": "Как выбрать шоссейный велосипед",
@@ -45,7 +43,6 @@
       "price": 29500,
       "description": " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam."
     },
-
     {
       "id": 2,
       "brand": "Azimut",
@@ -57,7 +54,6 @@
       "price": 11500,
       "description": " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam."
     },
-
     {
       "id": 3,
       "brand": "KidBike",
@@ -69,19 +65,17 @@
       "price": 4200,
       "description": " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam."
     },
-
     {
       "id": 4,
       "brand": "Matts",
       "rating": 102,
       "carName": "Merida Mats",
-      "imgUrl":  "https://yams.kufar.by/api/v1/kufar-ads/images/81/8111882660.jpg?rule=gallery",
+      "imgUrl": "https://yams.kufar.by/api/v1/kufar-ads/images/81/8111882660.jpg?rule=gallery",
       "model": "2015",
       "price": 7000,
       "automatic": "6 Gears",
       "description": " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam."
     },
-
     {
       "id": 5,
       "brand": "Tsunami",
@@ -93,17 +87,27 @@
       "price": 45000,
       "description": " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam."
     },
-
     {
       "id": 6,
       "brand": "Giant",
       "rating": 119,
-      "carName": "Giant", 
+      "carName": "Giant",
       "imgUrl": "https://www.fixedgearfrenzy.com/wp-content/uploads/2022/09/Giant-TCR-Advanced-2-2019-ML-BlackSilverRed-Carbon-Road-Bike.jpg",
       "model": "2019",
       "automatic": "6 Gears",
       "price": 16000,
       "description": " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam."
+    },
+    {
+      "carName": "leader new bike",
+      "brand": "leader",
+      "price": "128322",
+      "automatic": "8 передач",
+      "description": "Leader bike is the best bike",
+      "model": "2017",
+      "rating": "Отличное состояние",
+      "imgUrl": "https://10.img.avito.st/image/1/1.sOHsLLa5HAjahd4NgFKchyGPGgJYDxTKXY8eDFCFFgo.2AlwplWkThnoxHNQwoQ4Hi06KHUww-uMShr5470-ENE",
+      "id": 8
     }
   ]
 }

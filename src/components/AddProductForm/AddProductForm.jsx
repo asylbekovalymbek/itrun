@@ -2,8 +2,11 @@ import React, { useState } from "react";
 import TextField from "@mui/material/TextField";
 import axios from "axios";
 
-
-const AddProductForm = () => {
+// const Posts 
+const createPost = (newProduct) => {
+  return axios.post('http://localhost:3003/bikesData', newProduct )
+}
+const AddProductForm = () => { 
   const [carName, setCarName] = useState('');
   const [description, setDescription] = useState('');
   const [brand, setBrand] = useState('');
@@ -25,19 +28,31 @@ const AddProductForm = () => {
             rating,
             imgUrl
         }
-        if(imgUrl){
-            const imgUrlData = new FormData()
-            // const filename = Date.now() + image.name
-            // imageData.append("name", filename)
-            // imageData.append("file", image)
-            axios.post("http://localhost:3003/bikesData", imgUrl)
-            .then((data) => {
-                setBikeData(data.data);
+        createPost(newProduct)
+          .then(res => setCarName(carName.concat(res.data)))
+          
+        
+        // if(imgUrl){
+        //     const imgUrlData = new FormData()
+        //     // const filename = Date.now() + image.name
+        //     // imageData.append("name", filename) // .appen  добавить значение/ключ в обьект formData
+        //     // imageData.append("file", image)
+        //     axios.post("http://localhost:3003/bikesData/imgUrl", imgUrl)
+        //     .then((data) => {
+        //         // setBikeData(data.data);
+        //         newProduct.imgUrl = ''
 
-              })
-            .catch(err => console.log(err))
-            }
+        //       })
+        //     .catch(err => console.log(err))
+        //     }
+          // axios.post("http://localhost:3003/bikesData", newProduct)
+          // .then((data) => {
+          //   setBikeData(data.data)
+          // })
+          //   .catch(err => console.log(err))
+          
         }
+      
  
   return (
     <form onSubmit = {addProduct}>
