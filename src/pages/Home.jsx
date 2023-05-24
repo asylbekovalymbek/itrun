@@ -9,6 +9,9 @@ import CarItem from "../components/UI/CarItem";
 import BlogList from "../components/UI/BlogList";
 import axios from 'axios'
 
+
+
+
 const Home = () => {
   const [bikeData, setBikeData] = useState([]);
   useEffect(() => {

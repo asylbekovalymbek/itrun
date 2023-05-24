@@ -19,7 +19,9 @@ const Filter = (props) => {
                         <select onChange={e => props.setSorted(e.target.value)} value = {props.sorted}>
                             <option value="low">Низкая - Высокая</option>
                             <option value="high">Высокая - Низкая</option>
+                      
                         </select>
+                        
                     </p>    
                 </div>    
             </div>

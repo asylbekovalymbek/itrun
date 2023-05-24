@@ -35,7 +35,7 @@
     {
       "id": 1,
       "brand": "Leader",
-      "rating": 112,
+      "rating": "Фикс",
       "carName": "Leader 6061 Fixie",
       "imgUrl": "https://external-preview.redd.it/ey-eheEU8mVY4n5MOfRhxccd2GbukjWf6Fp99w2EvYU.jpg?width=640&crop=smart&auto=webp&s=724b02f35d814497596b5a202a1ec27600cb60e3",
       "model": "2020",
@@ -46,7 +46,7 @@
     {
       "id": 2,
       "brand": "Azimut",
-      "rating": 102,
+      "rating": "МТБ",
       "carName": "Azimut Spark",
       "imgUrl": "https://img5.lalafo.com/i/posters/api/0f/5c/0a/velosiped-shosseinyi-kareets-rama-74494061_image-1675567777.jpeg",
       "model": "2016",
@@ -57,7 +57,7 @@
     {
       "id": 3,
       "brand": "KidBike",
-      "rating": 132,
+      "rating": "Детский",
       "carName": "JustCycle 01",
       "imgUrl": "https://re.kg/image/9dc7b190-d5d2-47ff-a1c1-e9d813a55d01/700/500/%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D1%8E-%D0%B1-%D1%83-%D0%B4%D0%B5%D1%82%D1%81%D0%BA%D0%B8%D0%B9-%D0%B2%D0%B5%D0%BB%D0%BE%D1%81%D0%B8%D0%BF%D0%B5%D0%B4-%D0%B4%D0%BB%D1%8F-%D0%B4%D0%B5%D0%B2%D0%BE%D1%87%D0%BA%D0%B8-7-9-%D0%BB%D0%B5%D1%82?set=False&path=000000000033416%2F9dc7b190-d5d2-47ff-a1c1-e9d813a55d01.jpg",
       "model": "2014",
@@ -68,8 +68,8 @@
     {
       "id": 4,
       "brand": "Matts",
-      "rating": 102,
-      "carName": "Merida Mats",
+      "rating": "Городской",
+      "carName": "Merida Matts",
       "imgUrl": "https://yams.kufar.by/api/v1/kufar-ads/images/81/8111882660.jpg?rule=gallery",
       "model": "2015",
       "price": 7000,
@@ -79,7 +79,7 @@
     {
       "id": 5,
       "brand": "Tsunami",
-      "rating": 94,
+      "rating": "Фикс",
       "carName": "Tsunami E-type ",
       "imgUrl": "https://10.img.avito.st/image/1/1.sOHsLLa5HAjahd4NgFKchyGPGgJYDxTKXY8eDFCFFgo.2AlwplWkThnoxHNQwoQ4Hi06KHUww-uMShr5470-ENE",
       "model": "2022",
@@ -90,7 +90,7 @@
     {
       "id": 6,
       "brand": "Giant",
-      "rating": 119,
+      "rating": "Шоссейный",
       "carName": "Giant",
       "imgUrl": "https://www.fixedgearfrenzy.com/wp-content/uploads/2022/09/Giant-TCR-Advanced-2-2019-ML-BlackSilverRed-Carbon-Road-Bike.jpg",
       "model": "2019",
@@ -105,9 +105,42 @@
       "automatic": "8 передач",
       "description": "Leader bike is the best bike",
       "model": "2017",
-      "rating": "Отличное состояние",
+      "rating": "Фикс",
       "imgUrl": "https://10.img.avito.st/image/1/1.sOHsLLa5HAjahd4NgFKchyGPGgJYDxTKXY8eDFCFFgo.2AlwplWkThnoxHNQwoQ4Hi06KHUww-uMShr5470-ENE",
       "id": 8
+    },
+    {
+      "carName": "ыарывыаы",
+      "brand": "аываыв",
+      "price": "1231",
+      "automatic": "6",
+      "description": "аывыаы",
+      "model": "3131",
+      "rating": "39000",
+      "imgUrl": "Отличное",
+      "id": 9
+    },
+    {
+      "carName": "ыарывыаы[object Object]",
+      "brand": "аываыв",
+      "price": "1231",
+      "automatic": "6",
+      "description": "аывыаы",
+      "model": "3131",
+      "rating": "39000",
+      "imgUrl": "Отличное",
+      "id": 10
+    },
+    {
+      "carName": "ываыа",
+      "brand": "ываыаыа",
+      "price": "21230",
+      "automatic": "7",
+      "description": "авыа",
+      "model": "123",
+      "rating": "Фикс",
+      "imgUrl": "",
+      "id": 11
     }
   ]
 }

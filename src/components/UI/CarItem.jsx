@@ -5,7 +5,7 @@ import "../../styles/car-item.css";
 
 
 const CarItem = (props) => {
-  const {id, imgUrl, model, carName, automatic, price } = props.item;
+  const {id, imgUrl, model, carName, automatic, price, rating } = props.item;
 
   return (
     <Col lg="4" md="4" sm="6" className="mb-5">
@@ -27,9 +27,9 @@ const CarItem = (props) => {
             <span className=" d-flex align-items-center gap-1">
               <i class="ri-settings-2-line"></i> {automatic}
             </span>
-            {/* <span className=" d-flex align-items-center gap-1">
-              <i class="ri-timer-flash-line"></i> {speed}
-            </span> */}
+            <span className=" d-flex align-items-center gap-1">
+            <i class="ri-bike-line"></i> {rating}
+            </span>
           </div>
 
           <button className=" w-50 car__item-btn

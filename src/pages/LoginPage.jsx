@@ -17,6 +17,7 @@ const LoginPage = () => {
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
     const [username, setUsername] = useState('')
+    // const [isAdmin, setIsAdmin] = useState(false);
     const dispatch = useDispatch()
 
     const handleSubmit = async (e) => {

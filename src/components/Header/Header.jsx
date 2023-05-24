@@ -5,6 +5,7 @@ import "../../styles/header.css";
 import styles from "../../styles/header.css";
 import { useDispatch, useSelector } from 'react-redux';
 import { logout } from '../../redux/userSlice';
+import SearchBar from "./SearchBar";
 const navLinks = [
   {
     path: "/home",
@@ -168,7 +169,7 @@ const Header = () => {
                 ))}
               </div>
             </div>
-
+          
             <div className="nav__right">
               <div className="search__box">
                 <input type="text" placeholder="Search" />
@@ -177,6 +178,11 @@ const Header = () => {
                 </span>
               </div>
             </div>
+             
+                
+                      {/* <SearchBar />*/}
+              
+         
           </div>
         </Container>
       </div>

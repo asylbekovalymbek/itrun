@@ -47,13 +47,9 @@ const CarDetails = () => {
 
                   <span className=" d-flex align-items-center gap-2">
                     <span style={{ color: "#f9a826" }}>
-                      <i class="ri-star-s-fill"></i>
-                      <i class="ri-star-s-fill"></i>
-                      <i class="ri-star-s-fill"></i>
-                      <i class="ri-star-s-fill"></i>
-                      <i class="ri-star-s-fill"></i>
+                  
                     </span>
-                    ({bike.rating} Рейтинг)
+                    Категория: {bike.rating}
                   </span>
                 </div>
 
