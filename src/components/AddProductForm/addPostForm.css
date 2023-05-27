@@ -1,0 +1,16 @@
+.addProductpage{
+    width: 60%;
+    display: flex;
+    flex-direction: column
+}
+.submitbutton{
+    margin-top: 10px;
+    margin-left: 30%;
+        background: #fff;
+        color: #228c22;
+        padding: 2px 4px;
+        border-radius: 10px;
+        width: 30%;
+        height: 50px;
+      
+}

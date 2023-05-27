@@ -14,8 +14,11 @@ const getOneBike = async (carName) => {
     })
     return responce.data;   
 }
+const editProduct = (id, newProduct) => {
+    return axios.patch(`http://localhost:3003/bikesData/${id}`, newProduct)
+}
 
-export {getBikes, getOneBike};
+export {getBikes, getOneBike, editProduct};
 
 // // import all images from assets/images directory
 // import img01 from "../all-images/cars-img/fixedgear5.png";

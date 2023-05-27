@@ -41,7 +41,8 @@
       "model": "2020",
       "automatic": "No Gears",
       "price": 29500,
-      "description": " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam."
+      "description": " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      "number": "+996 702 324 666"
     },
     {
       "id": 2,
@@ -52,7 +53,8 @@
       "model": "2016",
       "automatic": "7 gear",
       "price": 11500,
-      "description": " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam."
+      "description": " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      "number": "+996 702 324 666"
     },
     {
       "id": 3,
@@ -63,7 +65,8 @@
       "model": "2014",
       "automatic": "1 gear",
       "price": 4200,
-      "description": " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam."
+      "description": " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      "number": "+996 702 324 666"
     },
     {
       "id": 4,
@@ -74,7 +77,8 @@
       "model": "2015",
       "price": 7000,
       "automatic": "6 Gears",
-      "description": " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam."
+      "description": " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      "number": "+996 702 324 666"
     },
     {
       "id": 5,
@@ -85,7 +89,8 @@
       "model": "2022",
       "automatic": "6 Gears",
       "price": 45000,
-      "description": " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam."
+      "description": " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      "number": "+996 702 324 666"
     },
     {
       "id": 6,
@@ -96,7 +101,8 @@
       "model": "2019",
       "automatic": "6 Gears",
       "price": 16000,
-      "description": " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam."
+      "description": " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      "number": "+996 702 324 666"
     },
     {
       "carName": "leader new bike",
@@ -107,40 +113,46 @@
       "model": "2017",
       "rating": "Фикс",
       "imgUrl": "https://10.img.avito.st/image/1/1.sOHsLLa5HAjahd4NgFKchyGPGgJYDxTKXY8eDFCFFgo.2AlwplWkThnoxHNQwoQ4Hi06KHUww-uMShr5470-ENE",
-      "id": 8
+      "id": 8,
+      "number": "+996 702 324 666"
     },
     {
-      "carName": "ыарывыаы",
-      "brand": "аываыв",
-      "price": "1231",
-      "automatic": "6",
-      "description": "аывыаы",
-      "model": "3131",
-      "rating": "39000",
-      "imgUrl": "Отличное",
-      "id": 9
+      "carName": "изменение поста no5",
+      "brand": "изменение поста no5o4",
+      "price": "изменение поста no5",
+      "automatic": "изменение поста no5",
+      "description": "изменение поста no5",
+      "model": "изменение поста no5",
+      "rating": "изменение поста no5",
+      "imgUrl": "https://10.img.avito.st/image/1/1.sOHsLLa5HAjahd4NgFKchyGPGgJYDxTKXY8eDFCFFgo.2AlwplWkThnoxHNQwoQ4Hi06KHUww-uMShr5470-ENE",
+      "id": 10,
+      "imgURL": "https://img5.lalafo.com/i/posters/api/0f/5c/0a/velosiped-shosseinyi-kareets-rama-74494061_image-1675567777.jpeg",
+      "mode": "изменение поста no4",
+      "number": "+996 702 324 666"
     },
     {
-      "carName": "ыарывыаы[object Object]",
-      "brand": "аываыв",
-      "price": "1231",
-      "automatic": "6",
-      "description": "аывыаы",
-      "model": "3131",
-      "rating": "39000",
-      "imgUrl": "Отличное",
-      "id": 10
+      "carName": "новый продукт 1",
+      "brand": "новый продукт 1",
+      "price": "новый продукт 1",
+      "automatic": "новый продукт 1",
+      "description": "новый продукт 1",
+      "model": "новый продукт 1",
+      "rating": "новый продукт 1",
+      "imgUrl": "https://re.kg/image/9dc7b190-d5d2-47ff-a1c1-e9d813a55d01/700/500/%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D1%8E-%D0%B1-%D1%83-%D0%B4%D0%B5%D1%82%D1%81%D0%BA%D0%B8%D0%B9-%D0%B2%D0%B5%D0%BB%D0%BE%D1%81%D0%B8%D0%BF%D0%B5%D0%B4-%D0%B4%D0%BB%D1%8F-%D0%B4%D0%B5%D0%B2%D0%BE%D1%87%D0%BA%D0%B8-7-9-%D0%BB%D0%B5%D1%82?set=False&path=000000000033416%2F9dc7b190-d5d2-47ff-a1c1-e9d813a55d01.jpg",
+      "number": "+996 701 324 666",
+      "id": 12
     },
     {
-      "carName": "ываыа",
-      "brand": "ываыаыа",
-      "price": "21230",
-      "automatic": "7",
-      "description": "авыа",
-      "model": "123",
-      "rating": "Фикс",
-      "imgUrl": "",
-      "id": 11
+      "carName": "новый велосипед 1",
+      "brand": "новый велосипед 1",
+      "price": "213",
+      "automatic": "50 передач",
+      "description": "папа велосипед",
+      "model": "новый велосипед 1",
+      "rating": "3423",
+      "imgUrl": "https://10.img.avito.st/image/1/1.sOHsLLa5HAjahd4NgFKchyGPGgJYDxTKXY8eDFCFFgo.2AlwplWkThnoxHNQwoQ4Hi06KHUww-uMShr5470-ENE",
+      "number": "новый велосипед 1",
+      "id": 13
     }
   ]
 }

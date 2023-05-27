@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import TextField from "@mui/material/TextField";
 import axios from "axios";
-
+import styles from "./addPostForm.css"
 // const Posts 
 const createPost = (newProduct) => {
   return axios.post('http://localhost:3003/bikesData', newProduct )
@@ -15,6 +15,7 @@ const AddProductForm = () => {
   const [rating, setRating] = useState('');
   const [automatic, setAutomatic] = useState('');
   const [imgUrl, setImgUrl] = useState('');
+  const [number, setNumber] = useState(0)
   const [bikeData, setBikeData] = useState([]);
     const addProduct = (e) => {
         e.preventDefault()
@@ -26,7 +27,8 @@ const AddProductForm = () => {
             description,
             model,
             rating,
-            imgUrl
+            imgUrl,
+            number
         }
         createPost(newProduct)
           .then(res => setCarName(carName.concat(res.data)))
@@ -55,58 +57,72 @@ const AddProductForm = () => {
       
  
   return (
-    <form onSubmit = {addProduct}>
+    <form onSubmit = {addProduct} className="addProductpage">
       <TextField
+        className="addProductSetting"
         label="Название велосипеда"
         variant="outlined"
         value={carName}
         onChange={(e) => setCarName(e.target.value)}
       />
-      <TextField
+      <TextField className="addProductSetting"
         label="Производитель"
         variant="outlined"
         value={brand}
         onChange={(e) => setBrand(e.target.value)}
       />
       <TextField
+        className="addProductSetting"
         label="Описание"
         variant="outlined"
         value={description}
         onChange={(e) => setDescription(e.target.value)}
       />
         <TextField
+        className="addProductSetting"
         label="price"
         variant="outlined"
         value={price}
         onChange={(e) => setPrice(e.target.value)}
       />
         <TextField
+        className="addProductSetting"
         label="Год"
         variant="outlined"
         value={model}
         onChange={(e) => setModel(e.target.value)}
       />
         <TextField
+        className="addProductSetting"
         label="Качество"
         variant="outlined"
         value={rating}
         onChange={(e) => setRating(e.target.value)}
       />
         <TextField
+        className="addProductSetting"
         label="Передачи"
         variant="outlined"
         value={automatic}
         onChange={(e) => setAutomatic(e.target.value)}
       />
        <TextField
+       className="addProductSetting"
         label="URL картинки"
         variant="outlined"
         value={imgUrl}
         onChange={(e) => setImgUrl(e.target.value)}
       />
+        <TextField
+        className="addProductSetting"
+        label="Номер телефона"
+        variant="outlined"
+        value={number}
+        onChange={(e) => setNumber(e.target.value)}
+      />
    
    
-        <input type="submit" />
+        <input type="submit" className="submitbutton"/>
     </form>
   );
 };
